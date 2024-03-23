@@ -1,0 +1,50 @@
+
+.div-main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-1 {
+  border: 1px solid black;
+  margin: 15px;
+  padding: 20px;
+  width: 28%;
+  background-color: aliceblue;
+}
+
+/* .container div{
+  width: 50%;
+} */
+.container-1 img{
+  height: 200px;
+  width: 200px;
+  padding: 30px 10px;
+  margin-bottom: -100px;
+  border-radius: 50px;
+  
+}
+.container-1 img:hover{
+  transform: scale(1.1);
+  transition: all 1s;
+  
+}
+
+.container-1 .price{
+  padding: 20px;
+  margin: 80px 2px 2px 0px;
+color: red;
+font-weight: 200;
+}
+.container-1 .desp{
+  font-size: medium;
+  overflow: hidden;
+  height: 300px;
+}
+
+
+.spinner{
+  height: 30%;
+  width: 30%;
+  padding-left:500px;
+  padding-top:50px;
+}

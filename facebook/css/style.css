@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+}
+body{
+    background-color: #efefef8a;
+}
+
+/* log in css--------------------- */
+
+
+.log-in .main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+.log-in .main .box-1{
+    width: 58%;
+
+}
+.log-in .main .box-2{
+    width: 38%;
+}
+
+.log-in .main .box-1 .image img {
+    width: 100%;
+    max-width: 336px;
+}
+
+
+.log-in .main .box-1 .text p {
+    font-size: 34px;
+    margin-left: 27px;
+}
+.log-in .main .box-2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.log-in .main .box-2 .input input, .log-in .main .box-2 .input button {
+    width: 100%;
+    height: 46px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.log-in .main .box-2 .input button:hover {
+    background-color: #468ce7;
+}
+.log-in .main .box-2 .input button{
+    background-color: #1877f2;
+
+    border: none;
+    color: white;
+}
+
+.log-in .main .box-2 .input input:focus{
+    border: 2px solid blue;
+    outline: none;
+}
+
+.link{
+    text-align: center;
+    margin-bottom: 10px;
+}
+a {
+    
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px solid blue;
+}
+
+
+.log-in .main .box-2 .input input {
+    padding: 0 10px;
+    border: 2px solid black;
+}
+.log-in .main .box-2 .btn {
+    text-align: center;
+    margin: 21px 0;
+}
+.log-in .main .box-2 .btn button {
+    border-radius: 10px;
+    color: white;
+    background-color: #42b72a;
+    padding: 19px 41px;
+    border: none;
+}
+.log-in .main .box-2 .btn button:hover{
+    background-color: #79e962
+}
+
+
+
